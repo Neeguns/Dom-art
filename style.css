@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Open+Sans:ital,wght@1,300&family=Spartan:wght@300&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Spartan, Open Sans ;
+}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	background: #3D7E89;
+	}
+nav h1{
+	color: black;
+	font-family: Spartan;
+	font-size: 25px;
+}
+nav .onglets{
+	margin-top: 18px;
+	margin-left: 30px;
+}
+nav .onglets a{
+	text-decoration: none;
+	color: #000000;
+	margin-right: 20px;
+	border-bottom: 2px solid black;
+	font-size: 23px;
+}
+@media screen and (max-width: 680px){
+	nav .onglets  {
+		margin-left: 0px;
+		margin-bottom: 20px;
+		margin-top: 0px;
+	}
+	
+}
+header{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Open Sans;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+
+    
+}
+header h4{
+	border-bottom: 2px solid black;
+
+}
+.main{
+	text-align: center;
+	flex-wrap: wrap;
+}
+.main h2{
+	display: flex;
+    flex-direction: column;
+    font-family: Open Sans;
+    font-size: 17;
+    text-align: center;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-position: under;
+	
+}
+.main img{	
+	height: 350px;
+	margin: 7px;
+	box-shadow:8px 8px 10px 0 rgba(0, 0, 0, 0.9);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+
+}
+.main img:hover {
+	transform:scale(1.2);
+}
+@media screen and (max-width: 680px){
+	.main img {
+		margin-left: 0px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		flex-wrap: wrap;
+		flex-direction: column;
+		width: 90%;
+		height: auto;
+		margin-top: 15px;
+
+	}
+}
+
+footer{
+	background: #3D7E89;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+footer p {
+	font-size: 17px;
+}
+.contact p{
+	padding-top: 2px;
+	text-align: left;
+	padding-top: 10px;
+}
+.contact-ico{
+	float: right;
+	display: flex;
+	padding-top: 50px;
+	flex-direction: row
+}
+.insta{
+	float: right;
+	display: flex;
+	padding-right: 56px;
+	flex-direction: row
+}
+.gmail{
+	float: right;
+	display: flex;
+	padding-right: 56px;
+	flex-direction: row
+}
+.tel{
+	float: right;
+	display: flex;
+	padding-right: 56px;
+	flex-direction: row
+}
+h6{
+	font-size: 11px;
+}
+.contact img{
+	margin-left: 20px;
+	width: 400px;
+	box-shadow:8px 8px 10px 0 rgba(0, 0, 0, 0.9);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.contact img:hover{
+	transform:scale(1.2);
+}
